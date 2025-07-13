@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naresh Kumar K | Java Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1555949963-aa79dcee981d') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 180px 20px;
+      box-shadow: 0 4px 50px rgba(0,0,0,0.7);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 4rem;
+      text-shadow: 4px 4px 15px rgba(0,0,0,0.8);
+    }
+    header p {
+      margin: 15px 0;
+      font-size: 1.6rem;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+    }
+    .quote {
+      font-size: 1.2rem;
+      font-style: italic;
+      color: #ffcc00;
+      margin-top: 15px;
+    }
+    section {
+      padding: 80px 25px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      color: #ffcc00;
+      border-bottom: 2px dashed #ffcc00;
+      padding-bottom: 10px;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+    }
+    .skills, .projects, .experience, .contact-details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: rgba(255,255,255,0.08);
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 50px rgba(0,0,0,0.6);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #ffcc00;
+    }
+    .card p {
+      line-height: 1.7;
+      color: #ddd;
+    }
+    .contact-card {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid #ffcc00;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    .contact-card h3 {
+      color: #ffcc00;
+      margin-bottom: 10px;
+    }
+    .contact-card p, .contact-card a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .resume-btn {
+      display: inline-block;
+      background: #ffcc00;
+      color: #1a252f;
+      padding: 15px 35px;
+      border-radius: 50px;
+      text-decoration: none;
+      margin: 40px auto 0;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+    .resume-btn:hover {
+      background: #e6b800;
+      transform: scale(1.1);
+    }
+    footer {
+      background: #1a252f;
+      color: #aaa;
+      text-align: center;
+      padding: 30px 0;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Naresh Kumar K</h1>
+    <p>Java Backend Developer | Spring Boot | Microservices</p>
+    <p class="quote">"First, solve the problem. Then, write the code."</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Java Backend Developer with 4+ years of experience building scalable enterprise applications using Java, Spring Boot, REST APIs, and Microservices. Currently preparing for JLPT N4 to explore international opportunities in Japan.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card"><h3>Java 11+</h3></div>
+      <div class="card"><h3>Spring Boot</h3></div>
+      <div class="card"><h3>REST APIs</h3></div>
+      <div class="card"><h3>Microservices</h3></div>
+      <div class="card"><h3>MySQL & MS SQL</h3></div>
+      <div class="card"><h3>Redis & RabbitMQ</h3></div>
+      <div class="card"><h3>Docker</h3></div>
+      <div class="card"><h3>Git & GitHub</h3></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Inaipi Voice Xchange (IVX)</h3>
+        <p>Designed a dynamic customer dialing scheduler integrated with live Asterisk events using Java, Spring Boot, Redis, and RabbitMQ.</p>
+      </div>
+      <div class="card">
+        <h3>Digital Channels Chat (DCC)</h3>
+        <p>Implemented backend logic for chat and email routing, improving SLA adherence by 20%.</p>
+      </div>
+      <div class="card">
+        <h3>Finsoft ERP Reporting Module</h3>
+        <p>Built reporting modules for enhanced business analytics and decision making.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact-details">
+      <div class="contact-card">
+        <h3>Email</h3>
+        <p><a href="mailto:naresh170999@gmail.com">naresh170999@gmail.com</a></p>
+      </div>
+      <div class="contact-card">
+        <h3>Phone</h3>
+        <p>+91 63691 17907</p>
+      </div>
+      <div class="contact-card">
+        <h3>LinkedIn</h3>
+        <p><a href="https://www.linkedin.com/in/naresh-kumar-java">linkedin.com/in/naresh-kumar-java</a></p>
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <a href="#" class="resume-btn">Download Resume</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Naresh Kumar K | Built with ❤️
+  </footer>
+</body>
+</html>
